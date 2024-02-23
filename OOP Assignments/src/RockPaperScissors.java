@@ -160,7 +160,7 @@ public class RockPaperScissors {
 			//ask the user if they want to play again
 			System.out.println("\nDo you want to play another? (Y/N): ");
 			restart = sc.next().charAt(0);
-		} while (restart == 'y' || restart == 'y');
+		} while (restart == 'Y' || restart == 'y');
 		//print closing message to console
 		System.out.println("\nThank you for playing this game!");
 	}
